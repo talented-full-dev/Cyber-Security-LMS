@@ -1,0 +1,38 @@
+.contact-col{
+    padding: 5%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.form-col{
+    background-color:#34086c;
+    padding:5%;
+    border-radius: 0px 20px 20px 0px;
+
+}
+
+.our-client-margin{
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    
+    .contact-col{
+        padding: 5%;
+        border-radius: 20px 20px 0px 0px;
+    }
+    
+    .form-col{
+        background-color:#34086c;
+        border-radius: 0px 0px 20px 20px;
+        padding:5%;
+    }
+
+    .our-client-margin{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+  }

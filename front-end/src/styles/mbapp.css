@@ -1,0 +1,150 @@
+.text-white{
+    color: white;
+ }
+ 
+ .imgaws{
+    height: auto;
+    width: 100%;
+ }
+ 
+ .mbapp-heading{
+    padding-top: 10%;
+    padding-bottom: 20%;
+    color: white;
+    background-color: rgba(208, 0, 122, 0.7);
+ }
+ 
+ .mbapp-card-container{
+    background-color: #170e28;
+    margin: 0;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+ }
+ 
+ .mbapp-card{
+    margin-top: -28%;
+    color:white;
+    background-color: #34086c;
+    padding: 8%;
+    border-radius: 15px;
+         }
+
+.uiapp-card .card{
+   border-radius: 15px;
+}
+
+.progress{
+   background-color: #5d3989;
+   height: 10px;
+   width: 100%;
+}
+
+.progress-done{
+   background: linear-gradient(to left , rgb(25, 211, 153) , #648468);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   opacity: 0;
+   height: 100%;
+   width: 0;
+   transition: 1s ease-in-out;
+}
+
+
+ 
+ 
+ .sales-btn-learn{
+    background-color: #e259fd !important;
+    background-image: linear-gradient(180deg, #7600ff , #d400ff);
+    border: none;
+    width: 150px;
+    font-weight: 500;
+    transition:background-color 0.2s !important;
+    transition-timing-function: ease-in-out !important;
+    margin-bottom: 15px;
+ }
+ 
+ .sales-btn-learn:hover{
+    background-color: #d400ff !important;
+    background-image: none;
+ }
+ 
+ .sales-card-img{
+    border: 1px;
+    border-radius: 20px 0px 0px 20px;
+    padding-top: 7%;
+ }
+ 
+ .sales-card-text{
+    border: 1px;
+    border-radius: 0px 20px 20px 0px;
+    padding-top: 7%;
+    background-color: #34086c;
+    color: white;
+ }
+
+ .mb-animate{
+   transform: translateX(1000px);
+   animation-name: mb-animater;
+   animation-duration: 1s;
+   animation-fill-mode:both;
+}
+
+.mb-animater{
+   transform: translateX(1000px);
+   animation-name: mb-animate;
+   animation-duration: 0.4s;
+   animation-fill-mode:both;
+}
+
+.display{
+   display: none;
+}
+
+
+
+@keyframes mb-animate{
+   from {
+      transform: translateX(-1000px);
+   }
+   to {
+      transform: translateX(0px);
+   }
+ }
+
+
+ @keyframes mb-animater {
+   from {
+      transform: translateX(0px);
+   }
+   to {
+      transform: translateX(-1000px);
+   }
+ }
+ 
+ 
+ 
+ @media screen and (max-width: 1500px) {
+ 
+    .mbapp-card-container{
+       padding: 5%;
+    }
+    
+ }
+ 
+ 
+ @media screen and (max-width: 768px) {
+ 
+    .mbapp-card-container{
+       padding-top: 6%;
+       padding-left: 3%;
+       padding-right: 3%;
+       padding-bottom: 5%;
+    }
+    .card-margin-top{
+       margin-top: 10%;;
+    }
+    
+ }

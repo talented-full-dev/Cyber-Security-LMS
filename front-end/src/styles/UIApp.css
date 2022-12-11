@@ -1,0 +1,96 @@
+.text-white{
+    color: white;
+ }
+ 
+ .imgaws{
+    height: auto;
+    width: 100%;
+ }
+ 
+ .uiapp-heading{
+    padding-top: 10%;
+    padding-bottom: 20%;
+    color: white;
+    background-color: rgba(208, 0, 122, 0.7);
+ }
+ 
+ .uiapp-card-container{
+    background-color: #170e28;
+    margin: 0;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+ }
+ 
+ .uiapp-card{
+    margin-top: -28%;
+    text-align: center;
+    color:white;
+         }
+
+.uiapp-card .card{
+   border-radius: 15px;
+}
+ 
+ .vc_sep_line{
+     height: 1px;
+     border-top: 1px solid #ebebeb;
+     display: block;
+     top: 1px;
+     width: 60%;
+     margin-left: 20%;
+ }
+ 
+ .sales-btn-learn{
+    background-color: #e259fd !important;
+    background-image: linear-gradient(180deg, #7600ff , #d400ff);
+    border: none;
+    width: 150px;
+    font-weight: 500;
+    transition:background-color 0.2s !important;
+    transition-timing-function: ease-in-out !important;
+    margin-bottom: 15px;
+ }
+ 
+ .sales-btn-learn:hover{
+    background-color: #d400ff !important;
+    background-image: none;
+ }
+ 
+ .sales-card-img{
+    border: 1px;
+    border-radius: 20px 0px 0px 20px;
+    padding-top: 7%;
+ }
+ 
+ .sales-card-text{
+    border: 1px;
+    border-radius: 0px 20px 20px 0px;
+    padding-top: 7%;
+    background-color: #34086c;
+    color: white;
+ }
+ 
+ @media screen and (max-width: 1500px) {
+ 
+    .uiapp-card-container{
+       padding: 5%;
+    }
+    
+ }
+ 
+ 
+ @media screen and (max-width: 768px) {
+ 
+    .uiapp-card-container{
+       padding-top: 6%;
+       padding-left: 3%;
+       padding-right: 3%;
+       padding-bottom: 5%;
+    }
+    .card-margin-top{
+       margin-top: 10%;;
+    }
+    
+ }

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.App{
+    position: relative;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.main-navbar{
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 20;
+    margin: 0px;
+}
+
+@media screen and (max-width: 992px) {
+    
+    .main-navbar{
+        position: fixed !important;
+        width: 100% !important;
+        z-index: 20 !important;
+        background-color: rgba(23, 13, 40, .97) !important;
+    }
+    .navbar-toggler-icon{
+        background-image: url(./assets/menubars.png) !important;
+    }
+    
+  }

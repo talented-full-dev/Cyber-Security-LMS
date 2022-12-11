@@ -1,0 +1,253 @@
+.section{
+    margin:0;
+    padding: 0;
+}
+.main-div{
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar{
+    margin: 0;
+}
+
+.hero-img{
+    background-image:  url("../assets/hero-image.jpg");
+    background-position: 75% 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65%;
+    width: 100%;
+}
+
+.hero-text{
+    color: white;
+    padding-top: 10%;
+}
+
+.contact-nav{
+    display: flex;
+    flex-direction: row !important;
+    border-bottom: 0.5px solid rgba(255,255,255,0.2);
+    color: white;
+}
+
+.navbar-row{
+    transition: background-color 0.5s;
+    transition-timing-function: ease;
+}
+
+.navbar-row.active{
+    background-color: rgba(23, 13, 40, .97) !important;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0 !important;
+    z-index: 10;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255,255,255,1) !important;
+}
+
+.navlink{
+    font-size:14px;
+    padding-bottom: 0px;
+    transition: padding-bottom 0.3s;
+    transition-timing-function: ease;
+
+}
+
+.navlink:hover{
+    padding-bottom: 12px;
+    border-bottom: 3px solid #8639ff;
+
+}
+
+.contact-nav-col a{
+    border-left: 0.5px solid rgba(255,255,255,0.5) !important;
+    padding-left:15px !important;
+    padding-right:15px !important;
+    padding-bottom:25px !important;
+}
+
+
+.contact-nav-col a:last-child{
+    border-right: 0.5px solid rgba(255,255,255,0.5) !important;
+}
+
+.btn-nav{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgba(255,255,255,0) !important;
+    border:1px solid #dddddd !important;
+}
+
+
+.btn-nav:hover{
+    background-image: linear-gradient(to right, rgb(241, 72, 19, 1), rgb(193, 18, 255, 1) 50%, rgb(20, 191, 228, 1)) !important;
+    background-repeat: no-repeat !important;
+}
+
+
+.p-header{
+    padding-left: 16% !important;
+    padding-right: 16% !important;
+}
+
+
+.hero-heading h1{
+    font-size: 60px;
+    line-height: 60px;
+    text-align: left;
+    margin-top: 65px;
+    font-weight: 700;
+
+}
+
+.card-first{
+    border-radius: 35px 0px 0px 35px !important;
+}
+
+.card-last{
+    border-radius: 0px 35px 35px 0px !important;
+
+}
+.cards-panel{
+    margin-top: -5%;
+}
+
+
+
+.card{
+    border: none !important;
+}
+
+.card-services-img{
+    max-width: 120px !important;
+    height: auto !important;
+    padding-left: 20px !important;
+    padding-top: 20px !important;
+}
+
+.card-services{
+    background-color: rgba(255, 255, 255, 0) !important;
+    color: white !important;
+}
+.card-text{
+    font-size: 14px;
+}
+
+.card-services a{
+    color: white;
+    font-size: 13px;
+}
+
+
+
+.card-services a:hover{
+    color: white;
+}
+.bg-orange{
+    background-image: linear-gradient(135deg, #f77400, #ffb11f);
+}
+
+.bg-lblue{
+    background-image: linear-gradient(126deg, #1e5bf7, #1f88ff);
+}
+
+.bg-pink{
+    background-image: linear-gradient(125deg, #d0007a, #ff0087);
+}
+
+.bg-purple{
+    background-image: linear-gradient(143deg, #7a00d4 2%, #8913e1 36%, #ae3fff 98%);
+}
+
+.bg-black{
+   background-color:  #1f1f1f !important;
+}
+
+.marginn{
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    display: flex;
+    flex-direction: row;
+}
+
+.company-icons{
+    max-height: 250px !important;
+    width: 100% !important;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.company-slider{
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.process{
+   margin: 0 !important;
+   padding: 0 !important;
+}
+
+
+
+
+
+@media screen and (max-width: 1499px) {
+    .p-header{
+        padding-left: 5% !important ;
+        padding-right: 5% !important;
+    }
+
+    .contact-nav{
+        display: none !important;
+    }
+
+    .marginn{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        display: flex;
+        flex-direction: row;
+    }
+  }
+
+
+  
+  @media screen and (max-width: 1024px) {
+    .marginn{
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-first{
+        border-radius: 35px 35px 0px 0px !important;
+    }
+    
+    .card-last{
+        border-radius: 0px 0px 35px 35px !important;
+    
+    }
+
+    .cards{
+        background-color: #34086c;
+    }
+
+    .hero-heading h1{
+        font-size: 40px;
+        line-height: 60px;
+        text-align: center;
+        margin-top: 65px;
+        font-weight: 700;
+    }
+    
+}
+
+
+ 
